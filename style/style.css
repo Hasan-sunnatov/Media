@@ -1,0 +1,1630 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #121212;
+}
+.container{
+    width: 1120px;
+    margin: 0px auto;
+    padding: 0px 10px;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 96px;
+    background-color: #121212;
+    border-bottom: 1.3px solid #979797;
+}
+.navigation__meta{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 28px;
+}
+.navigation__charset{
+    width: 147px;
+    height: 28px;
+}
+.navigation__language{
+    display: none;
+}
+.navigation__image{
+    width: 100%;
+    height: 100%;
+}
+.navigation__picture{
+    display: none;
+}
+.navigation__title{
+    display: flex;
+    align-items: center;
+    width: 429px;
+    height: 28px;
+}
+.ul__list{
+    display: block;
+    display: flex;
+    align-items: center;
+    gap: 32.5px;
+    list-style-type: none;
+}
+.list__link{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.navigation__span{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #D87D4A;
+    cursor: pointer;
+}
+.navigation__photo{
+    display: none;
+}
+.navigation__body{
+    width: 23.33px;
+    height: 20px;
+}
+.image__bodying{
+    width: 100%;
+}
+.menu-bar, .nav-list, #menu-bar{
+    display: none;
+}
+
+.hero{
+    width: 100%;
+    height: 667px;
+    background-color: #121212;
+}
+.hero__header{
+    width: 100%;
+    height: 667px;
+}
+.hero__meta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 667px;
+}
+.hero__charset{
+    width: 379px;
+    height: 347.9px;
+}
+.hero__pragraph{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-bottom: 24px;
+}
+.hero__headerone{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 58px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px;
+    padding-bottom: 24px;
+}
+.hero__text{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.75;
+    padding-bottom: 40px;
+}
+.hero__texting{
+    width: 100%;
+    height: 48px;
+}
+a{
+    text-decoration: none;
+}
+.hero__btn{
+    width: 160px;
+    height: 48px;
+    background-color: #D87D4A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.hero__btn:hover{
+    background-color: #00DBDE;
+    background-image: linear-gradient( 105.5deg,  rgba(31,212,248,1) 11%, rgba(218,15,183,1) 74.9% );  
+}
+.hero__title{
+    width: 657px;
+    height: 666px;
+    background-image: url("../image/Navushnik.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+.intro{
+    width: 100%;
+    height: 572px;
+}
+.intro__header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 572px;
+}
+.intro__meta{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 284px;
+}
+.intro__box{
+    display: flex;
+    align-items: flex-end;
+    width: 350px;
+    height: 284px;
+}
+.intro__boxing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 350px;
+    height: 204px;
+    background: #F1F1F1;
+    border-radius: 8px;
+}
+.intro__title{
+    position: absolute;
+    top: -80px;
+    width: 122.95px;
+    height: 160px;
+}
+.intro__image{
+    width: 100%;
+}
+.intro__content{
+    width: 100%;
+    height: 124px;
+    margin-top: 80px;
+}
+
+.intro__text{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 1.28571px;
+    text-transform: uppercase;
+    margin-top: 34px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.intro__massage:first-child{
+    color: #D87D4A;
+}
+.intro__massage{
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #D87D4A;
+}
+
+.intro__massage{
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.intro__span{
+    width: 5px;
+    height: 10px;
+    font-size: 19px;
+    color:  #ff5e00;
+}
+
+.central{
+    width: 100%;
+    height: 560px;
+}
+.central__header{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    height: 560px;
+    background: #D87D4A;
+    border-radius: 8px;
+}
+.central__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    height: 472px;
+}
+.central__lang{
+    width: 410.23px;
+    height: 470px;
+    background-image: url("../image/Sariq-kalonka.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.central__language{
+    width: 349px;
+    height: 303px;
+}
+.central__headerone{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 58px;
+    margin: 0px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 24px; 
+}
+.central__pragraph{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.75;
+    padding-bottom: 38.5px;
+}
+.central__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 48px;
+    background: #4C4C4C;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.central__button:hover{
+    background-image: radial-gradient( circle farthest-corner at 10.2% 55.8%,  rgba(252,37,103,1) 0%, rgba(250,38,151,1) 46.2%, rgba(186,8,181,1) 90.1% );
+    cursor: pointer;
+}
+
+.function{
+    width: 100%;
+    height: 368px;
+}
+.function__header{
+    width: 100%;
+    height: 368px;
+    padding-top: 48px;
+}
+.function__language{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 320px;
+    border-radius: 8px;
+    background-image: url("../image/Backround-kalonka.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-left: 95px;
+}
+.function__box{
+    width: 204px;
+    height: 118px;
+}
+.function__headerone{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 1.8px;
+    margin: 0px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 30px;
+}
+.function__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 48px;
+    border: 1px solid #000000;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    cursor: pointer;
+}
+.function__btn:hover{
+    background-image: linear-gradient( 110.1deg,  rgba(241,115,30,1) 18.9%, rgba(231,29,54,1) 90.7% );
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.example{
+     width: 100%;
+     height: 368px;
+}
+.example__header{
+    width: 100%;
+    height: 368px;
+    padding-top: 48px;
+}
+.example__meta{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 320px;
+}
+.example__language{
+    width: 540px;
+    height: 320px;
+    background: #F1F1F1;
+    border-radius: 8px;
+    background-image: url("../image/Qutuli-navishnik.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.example__box{
+    display: flex;
+    align-items: center;
+    width: 540px;
+    height: 320px;;
+    background: #F1F1F1;
+    border-radius: 8px;
+    padding-left: 95px;
+}
+.example__card{
+    width: 247px;
+    height: 118px;
+}
+.example__headerone{
+    margin: 0px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 1.9px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 30px;
+}
+.example__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 48px;
+    border: 1px solid #000000;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    cursor: pointer;
+}
+.example__button:hover{
+    background-image: linear-gradient( 73.1deg,  rgba(34,126,34,1) 8%, rgba(99,162,17,1) 86.9% );
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.description{
+    width: 100%;
+    height: 788px;
+}
+.description__header{
+    width: 100%;
+    height: 788px;
+    padding-top: 200px;
+}
+.description__language{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 588px;
+}
+.description__lang{
+    width: 445px;
+    height: 295px;
+}
+.description__headerone{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.42857px;
+    margin: 0px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 32px;
+}
+.write__text{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.42857px;
+    margin: 0px;
+    text-transform: uppercase;
+    color: #D87D4A;
+}
+.description__pragraph{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    opacity: 0.5;
+}
+.description__box{
+    width: 540px;
+    height: 588px;
+    background-image: url("../image/CHild-men.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.option{
+    width: 100%;
+    height: 200px;
+}
+.option__header{
+    width: 100%;
+    height: 200px;
+}
+
+.footer{
+    width: 100%;
+    height: 365px;
+    background-color: #101010;
+}
+.footer__header{
+    width: 100%;
+    height: 365px;
+    padding-top: 75px;
+}
+.footer__meta{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 242px;
+}
+
+.footer__box{
+    width: 540px;
+    height: 242px;
+}
+
+.footer__images{
+    padding-bottom: 40px;
+}
+.footer__pragraph{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding-bottom: 55px;
+}
+.footer__text{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.footer__card{
+    width: 451px;
+    height: 242px;
+}
+.list__ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-bottom: 104px;
+}
+.footer__contact{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 25px;
+}
+.footer__content{
+    width: 121px;
+    height: 25px;
+}
+.footer__end-image{
+    padding-left: 20px;
+}
+.footer__breacfst{
+    display: none;
+}
+
+
+@media only screen and (max-width: 926px){
+    .container{
+        width: 100%;
+    }
+    header{
+        background-color: #121212;
+    }
+    .navigation{
+        width: 100%;
+        height: 89px;
+        border-bottom: 1.5px solid #979797;
+    }
+    .navigation__meta{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 25px;
+    }
+    .navigation__charset{
+        width: 30px;
+        height: 25px;
+    }
+    .navigation__image{
+        display: none;
+    }
+    .navigation__picture{
+        display: block;
+        width: 100%;
+        height: 25px;
+    }
+    .navigation__title{
+        width: 143px;
+        height: 72%;
+    }
+    .ul__list{
+        display: none;
+    }
+    .navigation__photo{
+        display: block;
+        width: 100%;
+    }
+    
+    .navigation__body{
+        width: 23px;
+        height: 25px;
+    }
+    .image__bodying{
+        width: 100%;
+        height: 100%;
+    }
+
+    #menu-bar:checked ~ .nav-list{
+        left: 0%;
+        display: block;
+        display: flex;
+    }
+    .nav-list{
+        transition: 1.8s;
+        width: 83.5%;
+        height: 100vh;
+        position: fixed;
+        left: -100%;
+        top: 87.5px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+        list-style-type: none;
+        z-index: 1;
+        background-color: rgb(57, 35, 35);
+    }
+    .nav-logo{
+        text-decoration: none;
+        font-weight: 420;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        cursor: pointer;
+        letter-spacing: 3px;
+        font-size: 24px;
+    }
+    .nav-logo:hover{
+       color: rgb(68, 255, 0);
+       text-shadow: 0px 0px 5px yellow;
+    }
+    .hero{
+        max-width: 100%;
+        height: 729px;
+    }
+    .hero__header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 729px;
+        background-image: url("../image/Navushnik.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .hero__meta{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 392px;
+    }
+
+    .hero__charset{
+        width: 63%;
+        height: 392px;
+    }
+    .hero__pragraph{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 430;
+        font-size: 18px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.5;
+    }
+    .hero__headerone{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .hero__text{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 0.75;
+    }
+    .hero__texting{
+        width: 100%;
+        height: 48px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .hero__btn{
+        width: 160px;
+        height: 48px;
+        background-color: #D87D4A;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .hero__btn:hover{
+        background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );   
+    }
+    .hero__title{
+        display: none;
+    }  
+    .hero__title{
+        display: none;
+    } 
+
+    .intro{
+        width: 100%;
+        height: 409px;
+    }
+    .intro__header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 409px;
+    }
+    .intro__meta{
+        width: 100%;
+        height: 217px;
+    }
+    .intro__box{
+        width: 223px;
+        height: 217px;
+    }
+    .intro__boxing{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 223px;
+        height: 165px;
+    }
+    .intro__title{
+        position: absolute;
+        top: -52px;
+        width: 79.92px;
+        height: 104px;
+    }
+    .intro__image{
+        width: 100%;
+    }
+    .intro__content{
+        width: 100%;
+        height: 120px;
+        margin-top: 43.5px;
+    }
+    .intro__text{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 1.07143px;
+        text-transform: uppercase;
+        color: #000000;
+        margin-top: 36px;
+        margin-bottom: 17px;
+    }
+    .intro__massage{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #000000;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+    .central{
+        width: 100%;
+        height: 720px;
+    }
+    .central__header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 720px;
+        background-color: #D87D4A;
+        border-radius: 8px;
+    }
+    .central__box{
+        flex-direction: column; 
+        display: flex;
+        gap: 30px;
+        width: 349px;
+        height: 604px;
+    }
+    .central__lang{
+        width: 197.21px;
+        height: 237px;
+        background-image: url("../image/Sariq-kalonka.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .central__language{
+        width: 349px;
+        height: 303px;
+    }
+    .central__headerone{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 58px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin: 0px;
+        padding-bottom: 24px;
+    }
+    .central__pragraph{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 0.75;
+        padding-bottom: 38.5px;
+    }
+    .central__button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 160px;
+        height: 48px;
+        background: #4C4C4C;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        margin: auto;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .central__button:hover{
+        background-image: linear-gradient( 111.2deg,  rgba(232,5,5,1) 1.7%, rgba(245,49,191,1) 98.7% );
+        cursor: pointer;
+    }
+
+    .function{
+        width: 100%;
+        height: 352px;
+    }
+    .function__header{
+        width: 100%;
+        height: 352px;
+        padding-top: 32px;
+    }
+    .function__language{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 320px;
+        background-image: url("../image/Backround-ikkinchi-\ kalonka.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border-radius: 8px;
+        padding-left: 62px;
+    }
+    .function__box{
+        width: 204px;
+        height: 118px;
+    }
+    .function__headerone{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: 1.8px;
+        text-transform: uppercase;
+        color: #000000;
+        padding-bottom: 32px;
+    }
+    .function__btn{
+        width: 160px;
+        height: 45.5px;
+        border: 1px solid #000000;
+        cursor: pointer;
+    }
+    .function__btn:hover{
+        background-image: linear-gradient( 110.1deg,  rgba(241,115,30,1) 18.9%, rgba(231,29,54,1) 90.7% );
+        color: #FFFFFF;
+        cursor: pointer;
+        border: none;
+    }
+    .example{
+        width: 100%;
+        height: 352px;
+   }
+   .example__header{
+       width: 100%;
+       height: 352px;
+       padding-top: 32px;
+   }
+   .example__meta{
+       display: flex;
+       justify-content: space-between;
+       width: 100%;
+       height: 320px;
+   }
+   .example__language{
+        width: 339px;
+        height: 320px;
+        background: #F1F1F1;
+        border-radius: 8px;
+        background-image: url("../image/Turtinchi-image.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+   }
+   .example__box{
+        display: flex;
+        align-items: center;
+        width: 339px;
+        height: 320px;
+        background-color: #F1F1F1;
+        border-radius: 8px;
+        padding-left: 41px;
+   }
+   .example__card{
+        width: 247px;
+        height: 118px;
+   }
+   .example__headerone{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: 1.9px;
+        text-transform: uppercase;
+        margin: 0px;
+        color: #000000;
+        padding-bottom: 30px;
+   }
+   .example__button{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        width: 160px;
+        height: 48px;
+        border: 1px solid black;
+        cursor: pointer;
+   }
+    .example__button:hover{
+        background-image: linear-gradient( 73.1deg,  rgba(34,126,34,1) 8%, rgba(99,162,17,1) 86.9% );
+        border: none;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    .description{
+        width: 100%;
+        height: 729px;
+    }
+    .description__header{
+        width: 100%;
+        height: 729px;
+        padding-top: 96px;
+    }
+    .description__language{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 633px;
+    }
+    .description__lang{
+        width: 573px;
+        height: 270px;
+        margin-bottom: 63px;
+    }
+    .description__headerone{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+        letter-spacing: 1.42857px;
+        text-transform: uppercase;
+        color: #000000;
+        padding-bottom: 32px;
+    }
+     .description__pragraph{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #000000;
+        opacity: 0.5;
+     }
+    .description__box{
+        width: 100%;
+        height: 370px;
+        background-image: url("../image/Description-box.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border-radius: 8px;
+        margin-bottom: 63px;
+    }
+    .option{
+        width: 100%;
+        height: 96px;
+    }
+    .option__header{
+        width: 100%;
+        height: 96px;
+    }
+
+    .footer{
+        width: 100%;
+        height: 400px;
+        background: #101010;
+    }
+    .footer__header{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 400px;
+        padding-top: 60px;
+    }
+    .footer__meta{
+        width: 689px;
+        height: 294px;
+    }
+    .footer__box{
+        width: 100%;
+        height: 100%;
+    }
+    .footer__images{
+        display: none;
+    }
+    .footer__card{
+        display: none;
+    }
+    .footer__breacfst{
+        position: relative;
+        display: block;
+        width: 429px;
+        height: 25px;
+    }
+    .list__ul{
+        display: flex;
+        gap: 34px;
+        list-style-type: none;
+        margin-top: 32px;
+        width: 429px;
+        height: 25px;
+    }
+    .list__link{
+        text-decoration: none;
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 25px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .footer__pragraph{
+        margin-top: 92px;
+    }
+    .footer__contact{
+        position: absolute;
+        top: 265px;
+        left: 252px;
+    }
+    .footer__text{
+        padding-top: 22px;
+    }
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width: 428px){
+    header{
+        background-color: #121212;
+    }
+    .container{
+        width: 100%;
+    }
+    .navigation{
+        width: 100%;
+        height: 58px;
+        border-bottom: 1.5px solid #979797;
+    }
+    .navigation__meta{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 25px;
+    }
+    .navigation__charset{
+        width: 25px;
+        height: 25px;
+    }
+    .navigation__image{
+        display: none;
+    }
+    .navigation__picture{
+        display: block;
+        width: 80%;
+        height: 72%;
+    }
+    .navigation__title{
+        width: 143px;
+        height: 25px;
+    }
+    .ul__list{
+        display: none;
+    }
+    .navigation__photo{
+        display: block;
+        width: 100%;
+    }
+    
+    .navigation__body{
+        width: 23px;
+        height: 25px;
+    }
+    .image__bodying{
+        width: 100%;
+        height: 100%;
+    }
+
+    #menu-bar:checked ~ .nav-list{
+        left: 0%;
+        display: block;
+        display: flex;
+    }
+    .nav-list{
+        transition: 1.8s;
+        width: 83.5%;
+        height: 100vh;
+        position: fixed;
+        left: -100%;
+        top: 57px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+        list-style-type: none;
+        z-index: 1;
+        background-color: rgb(57, 35, 35);
+    }
+    .nav-logo{
+        text-decoration: none;
+        font-weight: 345;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #FFFFFF;
+        letter-spacing: 2px;
+        font-size: 18.5px;
+    }
+    .nav-logo:active{
+       color: rgb(255, 0, 195);
+    }
+    .hero{
+        max-width: 100%;
+        height: 510px;
+    }
+    .hero__header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 510px;
+        background-image: url("../image/RESPONSIV__Navushnik.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .hero__meta{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 316px;
+    }
+
+    .hero__charset{
+        width: 328px;
+        height: 292.4px;
+    }
+    .hero__pragraph{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        padding-bottom: 16px;
+        color: #FFFFFF;
+        opacity: 0.5;
+    }
+    .hero__headerone{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 1.28571px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-bottom: 24px;
+    }
+    .hero__text{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.75;
+        padding-bottom: 28px;
+    }
+    .hero__texting{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 48px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .hero__btn{
+        width: 160px;
+        height: 48px;
+        background-color: #D87D4A;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .hero__btn:hover{
+        background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );   
+    }
+    .hero__title{
+        display: none;
+    }  
+    .hero__title{
+        display: none;
+    }  
+    .intro{
+        width: 100%;
+        height: 900px;
+    }
+    .intro__header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 900px;
+    }
+    .intro__meta{
+        flex-direction: column;
+        gap: 16px;
+        width: 100%;
+        height: 755px;
+    }
+    .intro__box{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 217px;
+    }
+    .intro__boxing{
+        position: relative;
+        width: 100%;
+        height: 200.9px;
+    }
+    .intro__title{
+        position: absolute;
+        top: -52px;
+        width: 79.92px;
+        height: 104px;
+    }
+    .intro__image{
+        width: 100%;
+    }
+    .intro__content{
+        width: 100%;
+        height: 165px;
+        background-color:  #F1F1F1;
+        border-radius: 8px;
+    }
+    .intro__text{
+        margin-top: 57px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 1.07143px;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 20px;
+    }
+    .central{
+        width: 100%;
+        height: 600px;
+    }
+    .central__header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 600px;
+        background: #D87D4A;
+        border-radius: 8px;
+    }
+    .central__box{
+        flex-direction: column; 
+        display: flex;
+        gap: 30px;
+        width: 280px;
+        height: 490px;
+    }
+    .central__lang{
+        width: 172.25px;
+        height: 207px;
+        background-image: url("../image/Sariq-kalonka.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+    }
+    .central__language{
+        width: 280px;
+        height: 256px;
+    }
+    .central__headerone{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        margin: 0px;
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 1.28571px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-bottom: 24px;
+    }
+    .central__pragraph{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 0.75;
+        padding-bottom: 28px;
+    }
+    .central__button{
+        width: 160px;
+        height: 48px;
+        background: #000000;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    .central__button:hover{
+        background-image: linear-gradient( 109.8deg,  rgba(62,5,116,1) -5.2%, rgba(41,14,151,1) -5.2%, rgba(216,68,148,1) 103.3% );
+        cursor: pointer;
+    }
+
+    .function{
+        width: 100%;
+        height: 344px;
+    }
+    .function__header{
+        width: 100%;
+        height: 344px;
+        padding-top: 24px;
+    }
+    .function__language{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 320px;
+        border-radius: 8px;
+        background-image: url("../image/Uchinchi-kalonka.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-left: 24px;
+    }
+    .function__box{
+        width: 204px;
+        height: 118px;
+    }
+    .function__headerone{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: 1.8px;
+        text-transform: uppercase;
+        color: #000000;
+        margin: 0px;
+        padding-bottom: 32px;
+    }
+    .function__btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 160px;
+        height: 48px;
+        border: 1px solid #000000;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .function__btn:hover{
+        background-image: linear-gradient( 110.1deg,  rgba(241,115,30,1) 18.9%, rgba(231,29,54,1) 90.7% );
+        color: #FFFFFF;
+        cursor: pointer;
+        border: none;
+    }
+    .example{
+        width: 100%;
+        height: 448px;
+    }
+    .example__header{
+        width: 100%;
+        height: 448px;
+        padding-top: 24px;
+    }
+    .example__meta{
+        flex-direction: column;
+        display: flex;
+        gap: 24px;
+        width: 100%;
+        height: 424px;
+    }
+    .example__language{
+        width: 100%;
+        height: 200px;
+        background-image: url("../image/Qutuli-navishnik.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .example__box{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 200px;
+        padding-left: 24px;
+    }
+    .example__card{
+        width: 247px;
+        height: 118px;
+    }
+    .example__headerone{
+        margin: 0px;
+        padding-bottom: 32px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: 1.8px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .example__button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #000000;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+    .example__button:hover{
+        background-image: linear-gradient( 73.1deg,  rgba(34,126,34,1) 8%, rgba(99,162,17,1) 86.9% );
+        border: none;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    .footer__breacfst{
+        position: relative;
+        display: block;
+        width: 429px;
+        height: 25px;
+    }
+    .footer__contact{
+        position: absolute;
+        top: 290px;
+        left: -0px;
+    }
+    .description__pragraph{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        padding: 0px 100px;
+        text-align: center;
+        color: #000000;
+        opacity: 0.5;
+    }
+    .description__headerone{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .write__text{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: 1px;
+        /* text-transform: uppercase; */
+        color: #D87D4A;
+    }
+    .option{
+        background-color: red;
+    }
+}
+
+
+
+
+
+
+
